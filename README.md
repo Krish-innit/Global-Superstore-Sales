@@ -1,8 +1,10 @@
 # Global-Superstore-Sales
 
-## Overview
+<img width="980" height="549" alt="Screenshot 2026-11-11 101740" src="https://github.com/user-attachments/assets/bfbd791f-550b-43be-8a35-2d75006582e0" />
 
-This repository contains SQL queries written in PostgreSQL to analyze the Global Superstore dataset. The project focuses on business performance analysis using aggregations, joins, CTEs, window functions, and date functions.
+## Project Objective
+
+Analyzed the Global Superstore dataset using PostgreSQL to identify sales trends, product performance, regional performance, and profitability. Built an interactive Power BI dashboard to present key business metrics and insights.
 
 ## Dataset
 
@@ -29,8 +31,34 @@ This repository contains SQL queries written in PostgreSQL to analyze the Global
 * Conditional Aggregation
 * KPI Calculations
 
-## Project Portfolio
+## Analysis Performed
 
-For a detailed project overview, dashboard screenshots, key insights, and recommendations, visit my Notion portfolio:
+* Calculated Total Orders, Total Sales, Total Profit, and Overall Profit Margin.
+* Identified highest and lowest performing product based on sales.
+* Ranked sellers and regions based on total sales.
+* Analyzed monthly revenue trend, month-over-month revenue difference and year-over-year sales growth.
+* Calculated quarterly sales contribution to identify seasonal sales pattern.
+* Compared profit margins across different product categories.
+* Measured product return rate to identify frequently returned products.
+* Analyzed sales contribution of top customers.
+* Evaluated relationship between product discounts and sales performance.
 
-**https://app.notion.com/p/Global-Superstore-Sales-Analysis-38c4d5ad923e8042b24ce4d7edf4583b?source=copy_link**
+## Key Insights
+
+* Overall sales increased over the year showing steady business growth.
+* Q4 contributes to the largest share (more than 30%) of annual sales, while Q1 contribute the least.
+* Revenue is distributed across a broad customer base with top 10 customers contributing to only 2.4% of total sales.
+* Some products show a 100% return rate which may require further investigation.
+* Sales performance varies across regions and sellers, with some consistently outperforming others.
+* Product discounts do not appear to have a direct impact on sales, as the highest-selling products offer relatively low discounts.
+* The Furniture category has a significantly lower profit margin than the Technology and Office Supplies categories.
+
+## Recommendations
+
+* Review the lowest-performing products, as they contribute minimally to overall sales. Consider whether they should be improved or discontinued.
+* Focus on Q3 and Q4, as they generate the highest share of annual sales.
+* Investigate the lowest-performing sellers to identify the reasons behind their low sales.
+* Investigate products with high return rates to identify the cause and reduce future returns.
+
+#### Data Set 
+https://www.kaggle.com/datasets/shekpaul/global-superstore/data
