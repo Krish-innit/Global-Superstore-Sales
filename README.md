@@ -1,6 +1,6 @@
 # Global-Superstore-Sales
 
-<img width="980" height="549" alt="Screenshot 2026-11-11 101740" src="https://github.com/user-attachments/assets/bfbd791f-550b-43be-8a35-2d75006582e0" />
+<img width="978" height="545" alt="Screenshot 2026-11-11 102313" src="https://github.com/user-attachments/assets/86100ed1-1f62-4ad9-bfb9-26e2586184b4" />
 
 ## Project Objective
 
